@@ -43,7 +43,7 @@ Click [here]()
 * [Natalia Iriarte](https://github.com/Natalia-irlo) Developer
 * [Aurino]() Developer
 * [Eberth Castro](https://github.com/EberthCastro) Developer
-* [Celestina Gómez]() Developer
+* [Celestina Gómez](https://github.com/Celestina-Gomez) Developer
 * [Emma](https://github.com/emmamme447) Developer
 * [Jonathan Echeverria](https://github.com/Jonathaneche) Developer
 * [Zindy Martinez](https://github.com/LittleZ17) Developer
