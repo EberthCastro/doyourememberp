@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.footer_e{
+    background-color: #f7f7f7;
+}
+
+.division_e{
+    color:#656565;
+    size: 1px;;
+}
+
+.iconos_e{
+    color: #f9b5ac;
+}
+
+.letra_e{
+    font-family: 'PT Sans', sans-serif;
+    color:#656565;
+}
