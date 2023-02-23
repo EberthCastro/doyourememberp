@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
 } 
 
-.featuredSearchContainer{
+/* .featuredSearchContainer{
     padding: 40px;
     margin-top: 20%;
     display: grid;
@@ -18,9 +18,9 @@
 }
 .featuredSearchContainer p{
     font-size: 20px;
-}
+} */
 .tomanota{
-    margin-top: 220px;
+    margin-top: 10px;
     margin-left: 180px;
     color: white;
     padding-right: 50%;

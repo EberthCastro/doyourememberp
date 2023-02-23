@@ -19,7 +19,7 @@ function CardR({ remember }) {
     <>
     <div>
 
-      <Card sx={{ maxWidth: 345 , mb: 4, color:"#656565"}} key={remember.id} >
+      <Card sx={{ maxWidth: 345 , margin: 4, color:"#656565"}} key={remember.id} >
       <Link to={`/${remember.id}`}>
       <CardMedia
         sx={{ height: 200, borderRadius:"5px"}}
