@@ -18,10 +18,10 @@ This project was created so that users can live the experiences already lived by
 ## Technology stack 👩‍💻
 
 ### Tech/framework used in Front-end :electric_plug:
-* **HTML** - utilizado para crear la estructura básica de la página web
-* **CSS** - utilizado para estilizar la interfaz de usuario
-* **JavaScript**- utilizado para el desarrollo de página web
-* **npm** - utilizado para manejar las dependencias
+* **HTML** - used to create the basic structure of the web page
+* **CSS** - used for user interface styling
+* ** **JavaScript** - used for web page development
+** **npm** - used for dependency management
 
 * **Bootstrap** [Sitio web oficial](https://getbootstrap.com/)
 * **Mui/material** [Sitio web oficial](https://mui.com/)
