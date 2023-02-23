@@ -27,19 +27,20 @@ function Footer() {
     <div className='footer_e' sx={{ width: 100, height: 50 }}>
         <Divider className='division_e'></Divider>
         <Stack direction="row" className='iconos_e' spacing={4} justifyContent="center">
-            <FacebookIcon fontSize="large" />
-            <InstagramIcon fontSize="large" />
-            <TwitterIcon fontSize="large" />
-            <YouTubeIcon fontSize="large" />
+            <a href='https://www.facebook.com/GlobalBankofMemories'><FacebookIcon fontSize="large" /></a>
+            <a href='https://www.instagram.com/bank_of_memories_official/'><InstagramIcon fontSize="large" /></a>
+            <a href='https://twitter.com/bankof_memories'><TwitterIcon fontSize="large" /></a>
+            <a href='https://www.youtube.com/watch?v=0IwfBZ2PtzA&t=1s'><YouTubeIcon fontSize="large" /></a>
         </Stack>
 
-        <Stack direction="row" spacing={5} justifyContent="center" sx={{ mt: 4 }} alignItems="center">
-            <p className='letra_e'> Home</p>
-            <p className='letra_e'> Privacy Policy </p>
-            <p className='letra_e'> Terms of Use </p>
-            <p className='letra_e'> Content Policy </p>
-            <p className='letra_e'> Code of Ethics </p>
-            <p>     </p>
+        <Stack direction="row" spacing={5} justifyContent="center" sx={{ mt: 4, flexWrap: 'wrap' }} alignItems="center" >
+            <a className='letra_e'href="#"> Privacy Policy </a>
+            <a className='letra_e'href="#"> Terms of Use </a>
+            <a className='letra_e'href="#"> Content Policy </a>
+            <a className='letra_e'href="https://decentraland.org/ethics"> Code of Ethics </a>
+        </Stack>
+
+        <Stack direction="row" spacing={5} justifyContent="center" sx={{ mt: 4, flexWrap: 'wrap' }} alignItems="center" >
             <p className='letra_e'> © 2023 Do you remember? </p>
         </Stack>
     </div>
