@@ -3,7 +3,7 @@ import react from 'react'
 import './App.css'
 import Router from './router/Router'
 
-import Home from './views/Home'
+import Home from './components/Home/Dashboard'
 
 function App() {
   

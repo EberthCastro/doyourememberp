@@ -21,20 +21,11 @@ export default function Form() {
         width: '100%', height: '10%',
         display: 'flex', justifyContent:'space-around',
       }}>
-        {/* <img src='../src/assets/Logo.png'></img> */}
-
-        {/* <CardMedia
-          component="img"
-          sx={{ width: 120 }}
-          image="/src/assets/Logo.png"
-          alt="Live from space album cover"
-        /> */}
         <Typography variant="h5" component="h5" sx={{ color:'#FFFFFF', alignSelf:'center' }} > MORE INFORMATION </Typography>
 
       </Box>
       <TextField sx={{ width: '90%', borderRadius:'52px', bgcolor:'#FFFFFF', color:'#656565' }}
         required
-        // id="outlined-required"
         label="Name"
       />
       <TextField sx={{ width: '90%', borderRadius:'52px', bgcolor:'#FFFFFF', color:'#656565' }}
