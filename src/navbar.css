@@ -1,0 +1,32 @@
+.navbar {
+    background-color:#D9D9D9 ;
+    color: #656565;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%; 
+    padding: 30px;   
+  }
+
+  
+  img{
+    max-width: 200px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-self: end;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width:60%;
+  }
+  
+  .nav-link {
+    color: #656565;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
