@@ -17,6 +17,7 @@ function SingleCard() {
             <div >
                 <img src={rem.app_icon} alt="" />
             </div>
+            <h3>{rem.app_description}</h3>
         </div>
       
     ))}

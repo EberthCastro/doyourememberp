@@ -1,13 +1,14 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
+import rememberImg from "../assets/cascade.jfif";
 
 function Card({ remember }) {
   return (
     <>
       <div key={remember.app_id}>
         <Link to={`/${remember.id}`}>
-        <img src={remember.remember_icon} alt="descr" />
+        <img src={rememberImg} alt="descr" />
         </Link>
         <div>
           <h3>
