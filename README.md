@@ -35,6 +35,7 @@ This project was created so that users can live the experiences already lived by
 ## Installation :mechanic:
 * Create a directory on your computer to store the project
 * Run ***$ git clone https://github.com/EberthCastro/doyourememberp.git***
+* Run ***$ git clone https://github.com/EberthCastro/doyourememberbackend.git***
 
 ## How to use? :key:
 * First, in te project directory run ***$ npm install***
