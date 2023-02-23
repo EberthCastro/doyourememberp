@@ -39,14 +39,14 @@ Click [here]()
 
 ## Contributors :family_woman_woman_girl_girl:
 * [Alesia Baldeon](https://github.com/AlesiaCoder) Scrum Master and Developer
-* [Guillermo Trigueros]() Product Owner and Developer
+* [Guillermo Trigueros](https://github.com/Guillermo292) Product Owner and Developer
 * [Natalia Iriarte](https://github.com/Natalia-irlo) Developer
 * [Aurino]() Developer
 * [Eberth Castro](https://github.com/EberthCastro) Developer
 * [Celestina Gómez]() Developer
-* [Emma]() Developer
-* [Jonathan Echeverria]() Developer
-* [Zindy Martinez]() Developer
+* [Emma](https://github.com/emmamme447) Developer
+* [Jonathan Echeverria](https://github.com/Jonathaneche) Developer
+* [Zindy Martinez](https://github.com/LittleZ17) Developer
 
 
 ## License :closed_lock_with_key:
