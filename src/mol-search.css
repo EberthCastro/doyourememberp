@@ -1,0 +1,28 @@
+body{
+    background-color: blueviolet;
+}
+
+.content-search{
+    width:fit-content;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 370px;
+    height: 50px;
+    opacity: 0.5;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 2rem
+}
+
+.icon-search{
+    width: 58px;
+}
+
+.home-pic{
+    border-radius: 20px;
+}
