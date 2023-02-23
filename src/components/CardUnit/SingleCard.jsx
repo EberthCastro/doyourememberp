@@ -8,6 +8,8 @@ import CardMedia from '@mui/material/CardMedia';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Form from "../Contact/Form";
+import { Box } from "@mui/system";
+import { Stack } from "@mui/material";
 const endpoint = "http://127.0.0.1:8000/api";
 //
 
@@ -28,25 +30,23 @@ function SingleCard() {
 
   const { id } = useParams();
 
-  // const FindRemember = getSingleProduct.filter((rem) => rem.id === id);
-
-
-
 
   return (
     <>
-      <div>
-        <CardMedia
-          sx={{ height: 200, borderRadius: "5px" }}
-          image={products?.image}
-          title={products?.title}
-        />
-        <h1>{products?.title}</h1>
-        <h3>{products?.description}</h3>
-      </div>
+      <CardMedia
+        sx={{ height: 200, borderRadius: "5px" }}
+        image={products?.image}
+        title={products?.title}
+      />
+      <Stack direction={{ xs: 'column', sm: 'row', md: 'row', lg:'row' }}>
+        <Stack padding={2}>
+          <h1>{products?.title}</h1>
+          <p>{products?.description}</p>
+        </Stack>
+        <Form />
+      </Stack>
 
 
-      <Form />
 
 
 
