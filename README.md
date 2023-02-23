@@ -44,7 +44,7 @@ Click [here]()
 * [Aurino]() Developer
 * [Eberth Castro](https://github.com/EberthCastro) Developer
 * [Celestina Gómez]() Developer
-* [Emma]() Developer
+* [Emma Rentero]() Developer
 * [Jonathan Echeverria]() Developer
 * [Zindy Martinez]() Developer
 
