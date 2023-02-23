@@ -1,0 +1,29 @@
+ body {
+    background-image: url('../src/assets/imagenes/campoAtardecer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.featuredSearchContainer{
+    padding: 40px;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.featuredSearchContainer h1{
+    font-size: 70px;
+}
+.featuredSearchContainer p{
+    font-size: 20px;
+}
+.tomanota{
+    margin-top: 220px;
+    margin-left: 180px;
+    color: white;
+    padding-right: 50%;
+    font-family: 'Newsreader';
+    font-size: 60px;
+}
