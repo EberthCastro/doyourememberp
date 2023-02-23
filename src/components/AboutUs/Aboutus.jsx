@@ -1,4 +1,4 @@
-import './aboutus.css';
+import '../../styles/aboutus.css';
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -8,16 +8,18 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 
 import Stack from '@mui/material/Stack';
 
-import universe from '../assets/universe.png';
-import alesia from '../assets/alesia.jpg';
-import celestina from '../assets/celestina.jpg';
-import eberth from '../assets/eberth.jpg';
-import emma from '../assets/emma.jpg';
-import guillermo from '../assets/guillermo.jpg';
-import jonathan from '../assets/jonathan.jpg';
-import natalia from '../assets/natalia.jpg';
-import zindy from '../assets/zindy.png';
-import rememberLogo from '../assets/rememberLogo.png';
+import universe from '../../assets/universe.png';
+import alesia from '../../assets//alesia.jpg';
+import celestina from '../../assets/celestina.jpg';
+import eberth from '../../assets/eberth.jpg';
+import emma from '../../assets/emma.jpg';
+import guillermo from '../../assets/guillermo.jpg';
+import jonathan from '../../assets/jonathan.jpg';
+import natalia from '../../assets//natalia.jpg';
+import zindy from '../../assets/zindy.png';
+import rememberLogo from '../../assets/rememberLogo.png';
+import Footer from '../Home/Footer';
+import Navbar from '../Home/Navbar';
 
 
 function Aboutus() {
@@ -25,6 +27,7 @@ function Aboutus() {
   return (
 
     <div className='aboutus_e'>
+      <Navbar/>
       <p className='parrafo_e'>About Us</p>
         <div>
           <section>
@@ -237,7 +240,7 @@ function Aboutus() {
             </CardActions>
         </Card>
       </Stack>
-        
+      <Footer/>
     </div>
 
   )

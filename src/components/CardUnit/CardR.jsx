@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import rememberImg from "../assets/cascade.jfif";
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -24,7 +23,7 @@ function CardR({ remember }) {
       <Link to={`/${remember.id}`}>
       <CardMedia
         sx={{ height: 200, borderRadius:"5px"}}
-        image={rememberImg}
+        image={remember.image}
         title="mountain"
         /></Link>
       <CardContent sx={{display:"flex", flexDirection:"column", textAlign:"left" }}>

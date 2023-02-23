@@ -1,21 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 import axios from "axios";
-//Components
-// import Navbar from "../../components/navbar/Navbar";
 
 
+import CardR from "../CardUnit/CardR";
 
-//Router Dom
-// import { Link } from "react-router-dom";
-
-
-import CardR from "../components/CardR";
-import { display } from "@mui/system";
 
 const endpoint = 'http://localhost:8000/api'
 
-function Home() {
+function Dashboard() {
 
   const [ dreams, setDreams ] = useState([])
     useEffect ( () => {
@@ -44,4 +37,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Dashboard
