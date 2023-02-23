@@ -35,7 +35,7 @@ Click [here]()
 
 ## How to use? :key:
 * First, in te project directory run ***$ npm install***
-* Then, in the project directory run ***$ npm start***
+* Then, in the project directory run ***$ npm run dev***
 
 ## Contributors :family_woman_woman_girl_girl:
 * [Alesia Baldeon](https://github.com/AlesiaCoder) Scrum Master and Developer
@@ -44,7 +44,7 @@ Click [here]()
 * [Aurino]() Developer
 * [Eberth Castro](https://github.com/EberthCastro) Developer
 * [Celestina Gómez](https://github.com/Celestina-Gomez) Developer
-* [Emma](https://github.com/emmamme447) Developer
+* [Emma Rentero](https://github.com/emmamme447) Developer
 * [Jonathan Echeverria](https://github.com/Jonathaneche) Developer
 * [Zindy Martinez](https://github.com/LittleZ17) Developer
 
