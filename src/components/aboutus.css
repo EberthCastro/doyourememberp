@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.parrafo_e{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 400%;
+    color:#656565;
+}
+
+.parrafo1_e{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 200%;
+    color:#656565;
+}
+
+.parrafo2_e{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 150%;
+    color:#656565;
+}
+
+.texto1_e{
+    font-family: 'PT Sans', sans-serif;
+    color:#656565;
+}
+
+.texto2_e{
+    font-family: 'PT Sans', sans-serif;
+    color:#f9b5ac;
+}
