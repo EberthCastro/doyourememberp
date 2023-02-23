@@ -1,25 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
+import axios from "axios";
 //Components
 // import Navbar from "../../components/navbar/Navbar";
 
 
-//Datas (Json)
-import Remembers from "../data/app.json";
+
 //Router Dom
 // import { Link } from "react-router-dom";
 
-import Card from "../components/Card"
+
+import CardR from "../components/CardR";
+import { display } from "@mui/system";
+
+const endpoint = 'http://localhost:8000/api'
 
 function Home() {
 
+  const [ dreams, setDreams ] = useState([])
+    useEffect ( () => {
+        getAllDreams()
+    }, [])
 
+    const getAllDreams = async() => {
+        const response = await axios.get(`${endpoint}/remembers`)
+        setDreams(response.data)
+    }
+
+    
     return (
         <>
       
       
       <div >
-        {Remembers.map((remember) => {
-          return <Card key={remember.num_downloads_exact} remember={remember} />;
+        {dreams.map((remember) => {
+          return <CardR key={remember.id} remember={remember} />;
         })}
 
         </div>
