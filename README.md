@@ -43,10 +43,10 @@ Click [here]()
 * [Natalia Iriarte](https://github.com/Natalia-irlo) Developer
 * [Aurino]() Developer
 * [Eberth Castro](https://github.com/EberthCastro) Developer
-* [Celestina Gómez]() Developer
-* [Emma]() Developer
-* [Jonathan Echeverria]() Developer
-* [Zindy Martinez]() Developer
+* [Celestina Gómez](https://github.com/Celestina-Gomez) Developer
+* [Emma Rentero](https://github.com/emmamme447) Developer
+* [Jonathan Echeverria](https://github.com/Jonathaneche) Developer
+* [Zindy Martinez](https://github.com/LittleZ17) Developer
 
 
 ## License :closed_lock_with_key:
