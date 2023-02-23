@@ -4,7 +4,10 @@
 This project was created so that users can live the experiences already lived by other people in a space in the Metaverse.
 
 ## Build status :page_facing_up:
-[![Build Status](https://travis-ci.org/user/repo.svg?branch=master)](https://github.com/EberthCastro/doyourememberp.git)
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 
 ## Screenshots :desktop_computer:
 ### This is the Do you Remember's Logo
@@ -12,26 +15,27 @@ This project was created so that users can live the experiences already lived by
 ### These are the page views:
 ![This is an image]()
 
+## Technology stack 👩‍💻
 
-## Tech/framework used :electric_plug:
-* **HTML** - utilizado para crear la estructura básica de la página web
-* **CSS** - utilizado para estilizar la interfaz de usuario
-* **JavaScript**- utilizado para el desarrollo de página web
-* **npm** - utilizado para manejar las dependencias
+### Tech/framework used in Front-end :electric_plug:
+* **HTML** - used to create the basic structure of the web page
+* **CSS** - used for user interface styling
+* **JavaScript** - used for web page development
+** **npm** - used for dependency management
 
-## Technology stack :gear:
-* Bootstrap: 5.2.3 [Sitio web oficial](https://getbootstrap.com/)
-* Mui/material: 5.11.4 [Sitio web oficial](https://mui.com/)
-* React: 18.2.0 [Sitio web oficial](https://es.reactjs.org/)
-* Chart.js: 4.1.2 [Sitio web oficial](https://www.chartjs.org/)
-* Prop-types: 15.8.1 [Sitio web oficial](https://www.npmjs.com/package/prop-types)
+* **Bootstrap** [Sitio web oficial](https://getbootstrap.com/)
+* **Mui/material** [Sitio web oficial](https://mui.com/)
+* **React** [Sitio web oficial](https://es.reactjs.org/)
+
+### Tech/framework used in Back-end :gear:
+* **Laravel** - [Sitio web oficial](https://laravel.com/)
+* **PHP** - [Sitio web oficial](https://www.php.net/)
+* **MySQL** - [Sitio web oficial](https://www.mysql.com/)
 
 ## Installation :mechanic:
 * Create a directory on your computer to store the project
 * Run ***$ git clone https://github.com/EberthCastro/doyourememberp.git***
-
-## API Reference 👩‍💻
-Click [here]() 
+* Run ***$ git clone https://github.com/EberthCastro/doyourememberbackend.git***
 
 ## How to use? :key:
 * First, in te project directory run ***$ npm install***
