@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 } */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: archia;
+  src: url(./assets/fonts/archia.ttf);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+* {
+  font-family: archia;
+}
+
+a {
+  text-decoration: none;
+  color: #F9B5AC;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(249, 181, 172, 0.6);
+}
