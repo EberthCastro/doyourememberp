@@ -1,5 +1,5 @@
- body {
-    background-image: url('../src/assets/imagenes/campoAtardecer.jpg');
+ .container {
+    background-image: url('../src/assets/header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 } 

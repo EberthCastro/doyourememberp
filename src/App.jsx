@@ -8,7 +8,7 @@ import Home from './components/Home/Dashboard'
 
 import { useState } from 'react'
 import './App.css'
-import Prueba from './Prueba'
+
 
 
 function App() {

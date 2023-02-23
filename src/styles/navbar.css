@@ -7,6 +7,14 @@
     padding: 30px;   
   }
 
+  a{
+    /* line-height: none; */
+    text-decoration: none;
+  }
+  a:visited{
+    outline: none;
+  }
+
   
   img{
     max-width: 200px;
