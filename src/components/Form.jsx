@@ -8,10 +8,11 @@ export default function Form() {
     <Box
       component="form"
       sx={{
-        display: 'flex', flexDirection: 'column', width: '30%', alignItems: 'center',
-        '& .MuiTextField-root': { m: 1 },
-        
+        display: 'flex', flexDirection: 'column', width: '80%', alignItems: 'center',
+        '& .MuiTextField-root': { m: 1 },        
       }}
+      md={{width: '80%'}}
+      lg={{width: '50%'}}
       bgcolor='#F9B5AC'
       noValidate
       autoComplete="off"

@@ -7,6 +7,7 @@ import rememberImg from "../assets/cascade.jfif";
 //
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Form from "../components/Form";
 const endpoint = "http://127.0.0.1:8000/api";
 //
 
@@ -44,6 +45,10 @@ function SingleCard() {
       <h1>{products?.title}</h1>
       <h3>{products?.description}</h3>
       </div>
+
+      
+        <Form/>
+      
 
         
     </>
