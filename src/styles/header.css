@@ -2,7 +2,8 @@
     background-image: url('../src/assets/header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-} 
+    background-position: center;
+}  
 
 /* .featuredSearchContainer{
     padding: 40px;
@@ -12,18 +13,39 @@
     margin-top: 5%;
     margin-left: 7%;
     margin-right: 5%;
+}*/
+.tomanota h2{
+    font-size: 64px;
+    color: white !important;
+    text-align: left;
 }
-.featuredSearchContainer h1{
-    font-size: 70px;
-}
-.featuredSearchContainer p{
-    font-size: 20px;
-} */
+.tomanota p{
+    font-size: 32px;
+} 
 .tomanota{
-    margin-top: 10px;
-    margin-left: 180px;
-    color: white;
-    padding-right: 50%;
+    color: white !important;
+    width: 50%;
     font-family: 'Newsreader';
     font-size: 60px;
+    padding: 40px 0 70px 180px; 
 }
+
+@media (max-width: 992px) {
+
+    .tomanota{
+        width: 70%;
+        padding: 20px 0 40px 90px;
+    }
+    
+  
+  }
+
+  @media (max-width: 767px) {
+
+    .tomanota{
+        width: 95%;
+        padding: 20px 0 40px 30px;
+    }
+    
+  
+  }

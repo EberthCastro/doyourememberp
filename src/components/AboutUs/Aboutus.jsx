@@ -167,7 +167,7 @@ function Aboutus() {
             </CardContent>
           </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+            <Button size="small" color="primary" href='#'>
               Visit my Linkedin
               </Button>
             </CardActions>
