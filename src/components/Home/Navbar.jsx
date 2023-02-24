@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/">
-        <img src={logo} alt="Logo Do you Remember" />
+        <img className="logoHeader" src={logo} alt="Logo Do you Remember" />
       </Link>
       <ul className="navbar-nav">
         <li className="nav-item">

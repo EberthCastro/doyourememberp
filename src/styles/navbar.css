@@ -1,10 +1,14 @@
 .navbar {
-    background-color:#D9D9D9 ;
-    color: #656565;
+    background-color:#F7F7F7 ;
+    color: #656565 !important;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 100%; 
     padding: 30px;   
+  }
+
+  .navbar > a {
+    text-align: left; 
   }
 
   a{
@@ -16,8 +20,8 @@
   }
 
   
-  img{
-    max-width: 200px;
+  .logoHeader {
+    max-width: 200px !important;
   }
   
   .navbar-nav {
@@ -29,12 +33,31 @@
     width:60%;
   }
   
-  .nav-link {
-    color: #656565;
+  .nav-item a {
+    color: #656565 !important;
     text-decoration: none;
+    font-weight: bold;
+  }
+
+  .nav-item a:hover {
+    color: rgba(249, 181, 172, 0.6) !important;
   }
   
+  @media (max-width: 767px) {
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navbar-nav {
+      display: block;
+      text-align: right;   
+  }
+
+  .navbar-nav li {
+    padding-bottom: 5px;
+}
   
-  
-  
-  
+  }

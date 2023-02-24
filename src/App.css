@@ -61,6 +61,7 @@ h1, h2, h3, h4 {
 a {
   text-decoration: none;
   color: #F9B5AC;
+  transition: color 0.1s linear;
 }
 
 a:hover {
