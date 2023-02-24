@@ -1,5 +1,3 @@
-
-
 import * as React from 'react';
 import { Box, TextField, Typography, Button } from '@mui/material';
 
@@ -20,21 +18,21 @@ export default function Form() {
     >
       <Box p={2} sx={{
         width: '100%', height: '10%',
-        display: 'flex', justifyContent: 'space-around',
+        display: 'flex', justifyContent: 'space-around', paddingTop:'12%'
       }}>
         <Typography variant="h5" component="h5" sx={{ color: '#FFFFFF', alignSelf: 'center' }} > MORE INFORMATION </Typography>
 
       </Box>
-      <TextField sx={{ width: '90%', borderRadius: '52px', bgcolor: '#FFFFFF', color: '#656565' }}
+      <TextField sx={{ width: '90%', bgcolor: '#FFFFFF', color: '#656565' }}
         required
         label="Name"
       />
-      <TextField sx={{ width: '90%', borderRadius: '52px', bgcolor: '#FFFFFF', color: '#656565' }}
+      <TextField sx={{ width: '90%', bgcolor: '#FFFFFF', color: '#656565' }}
         required
         id="required"
         label="Phone"
       />
-      <TextField sx={{ width: '90%', borderRadius: '40px', bgcolor: '#FFFFFF', color: '#656565' }}
+      <TextField sx={{ width: '90%', bgcolor: '#FFFFFF', color: '#656565' }}
         id="outlined-multiline-static"
         label="Message"
         multiline

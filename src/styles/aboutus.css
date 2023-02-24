@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+.aboutus_e{
+    align-items: center;
+    text-align: center;
+}
+
+.imagen_e{
+    max-width: 80vw !important;
+}
+
+.imagen_ee{
+    max-width: 80vw !important;
+}
 .parrafo_e{
     font-family: 'PT Sans', sans-serif;
-    font-size: 400%;
+    font-size: 48px;
     color:#656565;
+    padding: 30px 0;
 }
 
 .parrafo1_e{
     font-family: 'PT Sans', sans-serif;
-    font-size: 200%;
+    font-size: 32px;
     color:#656565;
+    padding: 30px 30px 10px 30px;
 }
 
 .parrafo2_e{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 150%;
+    font-family: archia;
+    font-size: 18px;
     color:#656565;
+    padding: 30px 3rem 30px 30px;
 }
 
 .texto1_e{
@@ -27,3 +42,48 @@
     font-family: 'PT Sans', sans-serif;
     color:#f9b5ac;
 }
+
+.cardAboutUsContainer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.cardAboutUsInfo {
+    width: 22%;
+    margin: 30px 0px !important;
+}
+
+.cardAboutUsInfo img {
+    height: 220px;
+}
+
+.cardAboutUsInfo p {
+    font-family: archia;
+  }
+
+.cardAboutUsInfo a {
+    color: rgba(249, 181, 172, 1) !important;
+    text-decoration: none;
+  }
+
+  .cardAboutUsInfo a:hover {
+    color: rgba(249, 181, 172, 0.6) !important;
+    background-color: transparent;
+  }
+
+@media (max-width: 992px) {
+
+    .cardAboutUsInfo {
+        width: 40%;
+    }
+  
+  }
+
+  @media (max-width: 767px) {
+
+    .cardAboutUsInfo {
+        width: 100%;
+    }
+  
+  }

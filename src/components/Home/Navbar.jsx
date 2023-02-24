@@ -2,13 +2,13 @@ import React from 'react';
 import '../../styles/navbar.css';
 import logo from '../../assets/rememberLogo.png'
 import { Link } from "react-router-dom";
-import Home from './Home';
+
 
 function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/">
-        <img src={logo} alt="Logo Do you Remember" />
+        <img className="logoHeader" src={logo} alt="Logo Do you Remember" />
       </Link>
       <ul className="navbar-nav">
         <li className="nav-item">

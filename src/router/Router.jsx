@@ -2,7 +2,6 @@ import React from 'react'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../components/Home/Home';
-// import SingleCard from '../components/CardUnit/SingleCard';
 import Contact from '../components/Contact/Contact';
 import Aboutus from '../components/AboutUs/Aboutus';
 import IdCard from '../components/CardUnit/IdCard';
