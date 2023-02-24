@@ -19,7 +19,7 @@ function CardR({ remember }) {
     <>
     <div>
 
-      <Card sx={{ maxWidth: 345 , mb: 4, color:"#656565"}} key={remember.id} >
+      <Card sx={{ maxWidth: 345 , height: '90%', margin: 4, color:"#656565"}} key={remember.id} >
       <Link to={`/${remember.id}`}>
       <CardMedia
         sx={{ height: 200, borderRadius:"5px"}}
@@ -36,7 +36,7 @@ function CardR({ remember }) {
       </CardContent>
       <CardActions >
 
-      <Stack direction="row" spacing={15}>
+      <Stack direction="row" spacing={15} sx={{display:'flex', alignItems:'flex-end'}}>
       <Link to={`/${remember.id}`}>
       <Button startIcon={<AddIcon />} sx={{ display:"flex", justifyContent:"left",backgroundColor: '#f9b5ac', color:"#656565", width:"12em", borderRadius:"20px", padding:"4px 4px 4px 20px",border:"none", "&:hover": {
         border: "0px solid #f9b5ac",

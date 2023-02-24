@@ -28,27 +28,32 @@ function Aboutus() {
 
     <div className='aboutus_e'>
       <Navbar/>
-      <p className='parrafo_e'>About Us</p>
-        <div>
-          <section>
-            <img src={universe} alt="universo"/>
-          </section>
-        </div>
-      <p className='parrafo1_e'>You live only as long as people keep memories about you.</p>
-      <p className='parrafo2_e'>Do you remember? came as an idea to Iryna and Andrew with a mission to help people save their  memories and their entire life for many decades ahead. Big mission is to store data permanently using new technologies like blockchain and decentralization.They knew Andrew's mom was terminally ill, but they wanted to tell their children about her..
-        Paradigm-shifting ideas were always hidden in personal losses, extremely challenging life and... strong desire to help people be better.</p>
+      <div>
+        <p className='parrafo_e'>About Us</p>
+          <div>
+            <section>
+              <img src={universe} alt="universo" className='imagen_e'/>
+            </section>
+          </div>
+
+        <p className='parrafo1_e'>You live only as long as people keep memories about you.</p>
+        <p className='parrafo2_e'>Do you remember? came as an idea to Iryna and Andrew with a mission to help people save their  memories and their entire life for many decades ahead. Big mission is to store data permanently using new technologies like blockchain and decentralization.They knew Andrew's mom was terminally ill, but they wanted to tell their children about her..
+          Paradigm-shifting ideas were always hidden in personal losses, extremely challenging life and... strong desire to help people be better.</p>
 
         <div>
           <section>
-            <img src={rememberLogo} alt="our logo"/>
+            <img src={rememberLogo} alt="our logo" className='imagen_ee'/>
           </section>
         </div>
 
-      <p className='parrafo1_e'>Every single piece of Bank of Memories puzzle is made of a personal story.</p>
-      <p className='parrafo2_e'>We are a small team of eight people. Two of us started alone in 2019. Others joined in 2020 and 2021. All of us have a different skillset and backgrounds, but we all have the same family values and we love smart solutions.</p>
+        <p className='parrafo1_e'>Every single piece of Bank of Memories puzzle is made of a personal story.</p>
+        <p className='parrafo2_e'>We are a small team of eight people. Two of us started alone in 2019. Others joined in 2020 and 2021. All of us have a different skillset and backgrounds, but we all have the same family values and we love smart solutions.</p>
+      
+      </div>
 
-      <Stack direction="row" spacing={2}>
-        <Card sx={{ maxWidth: 200 }}>
+    
+      <Stack className='cardAboutUsContainer' direction="row" spacing={4} sx={{ pb: 2 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -58,21 +63,21 @@ function Aboutus() {
             />
             <CardContent>
               <Typography gutterBottom variant="h6" component="div">
-                Alesia
+              Alesia
               </Typography>
               <Typography variant="body2" className='texto1_e'>
-                Alesia comes from Málaga.
+              Alesia comes from Málaga.
               </Typography>
             </CardContent>
           </CardActionArea>
             <CardActions>
-              <Button size="small" href='https://www.linkedin.com/in/alesia-baldeon-machuca/'>
+            <Button size="small" href='https://www.linkedin.com/in/alesia-baldeon-machuca/'>
               Visit my Linkedin
               </Button>
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -96,7 +101,7 @@ function Aboutus() {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -120,7 +125,7 @@ function Aboutus() {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -144,7 +149,7 @@ function Aboutus() {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -162,13 +167,13 @@ function Aboutus() {
             </CardContent>
           </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
+            <Button size="small" color="primary" href='#'>
               Visit my Linkedin
               </Button>
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -192,7 +197,7 @@ function Aboutus() {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -216,7 +221,7 @@ function Aboutus() {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card className='cardAboutUsInfo'>
           <CardActionArea>
             <CardMedia
               component="img"

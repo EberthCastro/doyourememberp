@@ -2,18 +2,20 @@
 
 .footer_e{
     background-color: #f7f7f7;
+    padding-bottom: 20px;
 }
 
 .division_e{
     color:#656565;
-    size: 1px;;
+    size: 1px;
 }
 
 .iconos_e{
     color: #f9b5ac;
+    margin-top: 20px;
 }
 
 .letra_e{
-    font-family: 'PT Sans', sans-serif;
     color:#656565;
+    padding-bottom: 8px;
 }
