@@ -1,17 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
 import CardR from "../CardUnit/CardR";
-
-
 import { styled, alpha } from '@mui/material/styles';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 
 const Search = styled('div')(({ theme }) => ({
@@ -84,16 +76,6 @@ function Dashboard() {
 
   return (
     <>
-      {/* <div>
-        <input
-          type="text"
-          placeholder="Search by title or description"
-          value={searchTerm}
-          onChange={handleSearch}
-        />
-      </div> */}
-
-      
       <Box sx={{  margin: '10px', width:'20%' }}>   
           
           <Search>

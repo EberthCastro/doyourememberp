@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/navbar.css';
 import logo from '../../assets/rememberLogo.png'
 import { Link } from "react-router-dom";
-import Home from './Home';
+
 
 function Navbar() {
   return (

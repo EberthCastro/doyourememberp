@@ -1,5 +1,5 @@
 import React from 'react';
-import imagen from '../../assets/header.jpg';
+
 
 import '../../styles/header.css';
 
