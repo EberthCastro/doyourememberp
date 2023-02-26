@@ -11,6 +11,7 @@ const endpoint = "http://127.0.0.1:8000/api";
 
 
 function SingleCard() {
+  const baseUrl = import.meta.env.VITE_IMAGES_URL;
 
   const [products, setProducts] = useState()
 
@@ -34,7 +35,7 @@ function SingleCard() {
       <CardMedia
         sx={{ height: 500, borderRadius: "5px"}}
         
-        image={products?.image}
+        image={baseUrl+products?.image}
         title={products?.title}
         
         />

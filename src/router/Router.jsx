@@ -5,6 +5,7 @@ import Home from '../components/Home/Home';
 import Contact from '../components/Contact/Contact';
 import Aboutus from '../components/AboutUs/Aboutus';
 import IdCard from '../components/CardUnit/IdCard';
+import Create from '../components/CrudRemember/Create';
 
 
 
@@ -16,6 +17,7 @@ function Router() {
         <Route path="/:id" element={<IdCard />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/aboutus" element={<Aboutus />}></Route>
+        <Route path="/create" element={<Create />}></Route>
 
       </Routes>
     </BrowserRouter>

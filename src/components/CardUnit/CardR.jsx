@@ -15,6 +15,9 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Stack from '@mui/material/Stack';
 
 function CardR({ remember }) {
+  const baseUrl = import.meta.env.VITE_IMAGES_URL;
+  console.log(baseUrl+remember.image);
+
   return (
     <>
     <div>
@@ -23,7 +26,7 @@ function CardR({ remember }) {
       <Link to={`/${remember.id}`}>
       <CardMedia
         sx={{ height: 200, borderRadius:"5px"}}
-        image={remember.image}
+        image={baseUrl+remember.image}
         title="mountain"
         /></Link>
       <CardContent sx={{display:"flex", flexDirection:"column", textAlign:"left" }}>
